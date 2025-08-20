@@ -1,0 +1,76 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Música y Deporte</title>
+  </head>
+  <body>
+    <h1>Formulario de Música y Deporte</h1>
+    <form action="/procesar-registro" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" required>
+
+      <label for="edad">Edad:</label>
+      <input type="number" name="edad" id="edad">
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" name="email" id="email" placeholder="ejemplo@correo.com">
+
+      <label for="password">Contraseña:</label>
+      <input type="password" name="password" id="password">
+
+      <label for="pais">País:</label>
+      <select name="pais" id="pais">
+        <option value="">Selecciona un país</option>
+        <option value="es">España</option>
+        <option value="mx">México</option>
+        <option value="ar">Argentina</option>
+        <option value="co">Colombia</option>
+      </select>
+
+      <p>Género:</p>
+      <label for="masculino">Masculino</label>
+      <input type="radio" id="masculino" name="genero" value="masculino">
+      <label for="femenino">Femenino</label>
+      <input type="radio" id="femenino" name="genero" value="femenino">
+      <label for="otro">Otro</label>
+      <input type="radio" id="otro" name="genero" value="otro">
+
+      <p>Intereses:</p>
+      <label for="musica">Música</label>
+      <input type="checkbox" id="musica" name="intereses[]" value="musica">
+      <label for="deportes">Deportes</label>
+      <input type="checkbox" id="deportes" name="intereses[]" value="deportes">
+
+      <p>Preferencias musicales:</p>
+      <label for="genero-musical">Género musical favorito:</label>
+      <select name="genero_musical" id="genero-musical">
+        <option value="">Selecciona un género</option>
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="reggaeton">Reguetón</option>
+        <option value="salsa">Salsa</option>
+        <option value="clasica">Clásica</option>
+      </select>
+
+      <label for="artista">Artista o banda favorita:</label>
+      <input type="text" name="artista" id="artista" placeholder="Nombre del artista">
+
+      <p>Preferencias deportivas:</p>
+      <label for="deporte-favorito">Deporte favorito:</label>
+      <select name="deporte_favorito" id="deporte-favorito">
+        <option value="">Selecciona un deporte</option>
+        <option value="futbol">Fútbol</option>
+        <option value="baloncesto">Baloncesto</option>
+        <option value="tenis">Tenis</option>
+        <option value="natacion">Natación</option>
+        <option value="ciclismo">Ciclismo</option>
+      </select>
+
+      <label for="descripcion">Cuéntanos más sobre ti:</label>
+      <textarea name="descripcion" id="descripcion"></textarea>
+
+      <button type="submit" id="btnenviar">Enviar</button>
+    </form>
+  </body>
+</html>
