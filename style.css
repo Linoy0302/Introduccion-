@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.tabla-periodica {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.tabla-periodica td {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.element {
+  display: grid;
+  grid-template-rows: 20% 50% 30%;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.element:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  position: relative;
+}
+
+.element .num {
+  font-size: 12px;
+  justify-self: start;
+  margin: 4px;
+}
+
+.element .sim {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.element .name {
+  font-size: 11px;
+}
+
+.nometal { background: #90caf9; }
+.gas-noble { background: #a5d6a7; }
+.alcalino { background: #ffcc80; }
+.alcalinoterreo { background: #ffe082; }
+.halogeno { background: #f48fb1; }
+.metaloide { background: #b39ddb; }
+.metal { background: #e6ee9c; }
+.transicion { background: #ce93d8; }
+.lantanido { background: #80cbc4; }
+.actinido { background: #ffab91; }
