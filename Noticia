@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Hoy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Noticias Hoy</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>Bienvenido a Noticias Hoy</h2>
+            <p>Aquí encontrarás las últimas novedades de interés general, tecnología y sociedad.</p>
+        </section>
+
+        <section class="tabla-noticias">
+            <h2>Noticias Destacadas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Fecha</th>
+                        <th>Fuente</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Avances en Inteligencia Artificial</td>
+                        <td>04/09/2025</td>
+                        <td>TechWorld</td>
+                    </tr>
+                    <tr>
+                        <td>Nuevas medidas ambientales</td>
+                        <td>03/09/2025</td>
+                        <td>EcoNews</td>
+                    </tr>
+                    <tr>
+                        <td>Innovaciones en medicina</td>
+                        <td>01/09/2025</td>
+                        <td>SaludGlobal</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="cards">
+            <h2>Más Noticias</h2>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3a9TRiQnW-o2AC9kwgzAJfHVz-E-oEUepvw&s" alt="Noticia 1">
+                <p>Un nuevo descubrimiento en energías renovables podría cambiar el futuro energético mundial.</p>
+            </div>
+            <div class="card">
+                <img src="https://www.cocheglobal.com/uploads/s1/17/42/21/73/modelo-de-coche-de-foxconn-el-fabricante-del-iphone-de-apple.jpeg" alt="Noticia 2">
+                <p>La industria automotriz presenta el primer vehículo autónomo totalmente eléctrico.</p>
+            </div>
+            <div class="card">
+                <img src="https://colombia.iom.int/sites/g/files/tmzbdl1011/files/styles/large/public/press_release/media/2024-01/img_1197mod.jpg?itok=Zy2VOGuA" alt="Noticia 3">
+                <p>Un proyecto social busca reducir la pobreza a través de la educación tecnológica.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Noticias Hoy | Síguenos en 
+            <a href="#">Facebook</a> - 
+            <a href="#">Twitter</a> - 
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
