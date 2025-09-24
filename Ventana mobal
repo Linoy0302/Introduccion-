@@ -1,0 +1,21 @@
+// Obtener referencias a los elementos
+const abrirModalBtn = document.getElementById("abrirModalBtn");
+const cerrarModalBtn = document.getElementById("cerrarModalBtn");
+const modalOverlay = document.getElementById("modalOverlay");
+ 
+// Abrir modal
+abrirModalBtn.addEventListener("click", () => {
+  modalOverlay.classList.add("visible");
+});
+ 
+// Cerrar modal con el botón
+cerrarModalBtn.addEventListener("click", () => {
+  modalOverlay.classList.remove("visible");
+});
+ 
+// Cerrar modal haciendo clic en el overlay
+modalOverlay.addEventListener("click", (event) => {
+  if (event.target === modalOverlay) {
+    modalOverlay.classList.remove("visible");
+  }
+});
