@@ -16,9 +16,10 @@
     <div class="modal">
       <h2>Términos y Condiciones</h2>
       <p>
-        Este es un ejemplo de ventana modal creada con HTML, CSS y JavaScript.
-        Aquí puedes colocar información importante, notificaciones o formularios.
-      </p>
+  🚨 ¡Alerta importante!  
+  <br>Has desbloqueado el secreto de este sitio:  
+  <br>“La clave de todo es… comer pizza los viernes 🍕.”  
+</p>
       <button id="cerrarModalBtn">Cerrar</button>
     </div>
   </div>
