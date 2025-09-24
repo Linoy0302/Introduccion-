@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ventana Modal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ejemplo de Ventana Modal</h1>
+  <button id="abrirModalBtn">Mostrar Términos</button>
+ 
+  <!-- Overlay -->
+  <div id="modalOverlay" class="overlay">
+    <!-- Contenido del modal -->
+    <div class="modal">
+      <h2>Términos y Condiciones</h2>
+      <p>
+        Este es un ejemplo de ventana modal creada con HTML, CSS y JavaScript.
+        Aquí puedes colocar información importante, notificaciones o formularios.
+      </p>
+      <button id="cerrarModalBtn">Cerrar</button>
+    </div>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
